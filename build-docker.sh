@@ -3,7 +3,7 @@
 ########### ENV VARS ###########
 NAME=forgottenartifact
 IMAGE=blockchain_${NAME}
-FLAG=HTB{pl4c3h0ld3r}
+FLAG=HTB{y0u_c4n7_533_m3}
 PUBLIC_IP=127.0.0.1
 HANDLER_PORT=8000
 LOCAL_RPC_PORT=5000

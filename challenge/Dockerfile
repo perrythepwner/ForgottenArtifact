@@ -1,4 +1,4 @@
-FROM ghcr.io/foundry-rs/foundry:nightly-805d7cee81e78e9163b8ce3d86a0c3beb39772d4 as foundry
+FROM ghcr.io/foundry-rs/foundry:latest as foundry
 
 FROM python:3.12-slim-bookworm as runner
 
