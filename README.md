@@ -6,9 +6,9 @@
     <img src="./assets/EventBanner.jpg" />
 </p>
 
-> 5<sup>th</sup> Dec 2024 \
+5<sup>th</sup> Dec 2024 \
 Prepared By: perrythepwner \
-Challenge Author(s): perrythepwner \
+Challenge Author(s): **perrythepwner** \
 Difficulty: <font color=green>Easy</font>
 
 ---
@@ -269,4 +269,4 @@ We could also have done that using `web3py`:
 see the full exploitation script [here](./htb/solver.py).
 
 ---
-> HTB{h3ll0_ch41n_sc0ut3r}
+> HTB{y0u_c4n7_533_m3}
