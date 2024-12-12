@@ -65,10 +65,9 @@ if __name__ == "__main__":
     block_timestamp = origin_block["timestamp"]
     print(f"[*] Block number: {deployed_log['blockNumber']}, timestamp: {block_timestamp}, msg.sender: {setup_addr}")
     seed = w3.keccak(encode_packed(["uint", "uint", "address"], [deployed_log["blockNumber"], block_timestamp, setup_addr]))
-    print(f"[*] Artifact storage pointer location: {seed}")
+    print(f"[*] Artifact storage pointer location: 0x{seed.hex()}")
     print(f"[*] Discovering artifact")
     ForgottenArtifact.functions.discover(seed).transact()
-
 
     # get flag
     with remote(handler_host, handler_port) as p:
