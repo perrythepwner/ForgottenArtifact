@@ -7,10 +7,10 @@ class Config:
     PUBLIC_IP: str = os.getenv("PUBLIC_IP", "localhost")
     LOCAL_RPC_PORT: int = int(os.getenv("LOCAL_RPC_PORT", 5000))
     PUBLIC_RPC_PORT: int = int(os.getenv("PUBLIC_RPC_PORT", 8888))
-    HANDLER_PORT: int = int(os.getenv("HANDLER_PORT", 1338))
+    HANDLER_PORT: int = int(os.getenv("HANDLER_PORT", 8000))
     FRONTEND_PORT: int = int(os.getenv("FRONTEND_PORT", 8080))
     ANVIL_LOGFILE: str = "/var/log/ctf/anvil_output.log"
-    FLAG: str = os.getenv("FLAG", "HTB{pl4c3h0ld3r}")
+    FLAG: str = os.getenv("FLAG", "HTB{y0u_c4n7_533_m3}")
     
     ALLOWED_NAMESPACES: list = ["web3", "eth", "net"]
     RECEIPT_POLL_INTERVAL: float = 0.1
