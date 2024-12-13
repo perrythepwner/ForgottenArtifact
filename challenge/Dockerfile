@@ -47,8 +47,7 @@ RUN true \
     && true
 
 EXPOSE 8000
-EXPOSE 8080
-EXPOSE 8888
+EXPOSE 5000
 
 USER root
 WORKDIR /home/ctf/
