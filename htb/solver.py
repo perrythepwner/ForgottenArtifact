@@ -14,7 +14,7 @@ if args.REMOTE:
     RPC_URL = f"http://{IP}:{RPC_PORT}/"
     HANDLER_URL = (IP, TCP_PORT)
 else:
-    RPC_URL = "http://localhost:8888/"
+    RPC_URL = "http://localhost:5000/"
     HANDLER_URL = ("localhost", 8000)
 
 if __name__ == "__main__":
