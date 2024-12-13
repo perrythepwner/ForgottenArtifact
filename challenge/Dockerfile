@@ -1,6 +1,6 @@
 FROM ghcr.io/foundry-rs/foundry:latest as foundry
 
-FROM python:3.12-slim-bookworm as runner
+FROM python:3.12-slim-bullseye as runner
 
 COPY ./backend/requirements.txt /tmp/requirements.txt
 
